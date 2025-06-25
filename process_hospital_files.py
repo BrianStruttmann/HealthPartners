@@ -144,7 +144,7 @@ def main():
     """
 
     last_run_date = get_last_run_date()
-    print(f"Processing datasets modified after {last_run_date.strftime("%Y-%m-%d")}...")
+    print(f"Processing datasets modified after {last_run_date.strftime('%Y-%m-%d')}...")
 
     # Read the data from the metastore
     all_datasets = get_file_data(METASTORE_URL)
